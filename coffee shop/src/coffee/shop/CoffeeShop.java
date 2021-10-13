@@ -5,6 +5,8 @@
  */
 package coffee.shop;
 
+import java.sql.SQLException;
+
 /**
  *
  * @author xavio
@@ -14,9 +16,8 @@ public class CoffeeShop {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-       System.out.println("hello world");
+ public static void main(String[] args) throws SQLException {
+    new login().setVisible(true);
     }
     
 }
