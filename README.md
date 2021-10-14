@@ -1,2 +1,2 @@
 # coffeeshop
-## make a complete solution for coffee sales system.
+make a complete solution for coffee sales system.
